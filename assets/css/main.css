@@ -3,7 +3,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: white;
     background-color: black;
-    font-size: 40px;
+    font-size: 16px;
     margin: 0;
 }
 
@@ -17,8 +17,8 @@ header {
 }
 
 nav img {
-    width: 167px;
-    height: 120px;
+    max-width: 167px;
+    max-height: 45px;
     vertical-align: middle;
 }
 
@@ -107,12 +107,13 @@ nav .signin:hover,
 }
 
 #features>nav a img {
-    height: 40px;
+    height: 50px;
+    width: 50px;
 }
 
 #features>nav a h2 {
     margin: 10px 0 0;
-    font-size: 0.5em;
+    font-size: 1.0em;
 }
 
 .columns {
